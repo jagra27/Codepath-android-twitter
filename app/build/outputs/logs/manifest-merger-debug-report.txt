@@ -1,0 +1,214 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/712adf6388c8c73e68dd88f98c09a3f1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/85a33c440ab87ac7b31530e5d01ebb20/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/a96b426297be627cad78ad09c5a109cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/da5ea38d2bf6c09cfd2d89cf2410c69a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/a6ba4b1a262567df138db35db2335fcd/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/9f173acd181f007fd49701ce9a394ca8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/dd699df8aa565725046d421456379f38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/110d550cd99d73b77c57cefb02be0f06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/9afc344b59113bbaf5fab6babb167547/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/07a4ee11d79f8bcc1d7e62b325ebfc5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b9789f431083125eeb9793f1cd0ca92a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/ca2be5fcff7eb12ebee1686576d679c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4aa6ad4bbfdad11096b1e468dd1c3035/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/ce91d1c0d88154317f0a62a482a433da/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/61286ba2abfb26d8d934bdf1e585937b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/d63053ad5a1c12255288454459bdfd1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/6353d661ed237c93409cd7eca131959c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/6c6fa743b48e33d43a1fc757096820cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/2a4c399c3ba45ea363688bf6ff74c58b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/2c77090fe41fa9114d2234497d7f9150/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1ed847667fa34b88e734c065c2eb7861/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/84c06b639a82ff828066b9e34ac24199/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/0894adcaa71bed5b11df35253e491156/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1ae968caacb9c35fbf2db581ea29127b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/662b85408d8c8b0d150fc52549a11c45/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b579da46ae8de5b8ce963e2553af55bf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/748d13dec882f0b110708e5731775711/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/46edb9c10138b9ade1b8f6faab853dfd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/07509c6eea2f8a6e0bcc275809fef228/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/da240f16596b2eea768b8a3e7c3555eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b531b391ba97629bdddc26f95eed64c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1f40a5f5846aea3dcf687ba7e633a3fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4fa0c203ce9461df1cc80251870bdb89/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4c406523aa02fa089aab77a55c09e574/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/c041c029a80bb6afda8ea58255412cfc/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/da5ea38d2bf6c09cfd2d89cf2410c69a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/da5ea38d2bf6c09cfd2d89cf2410c69a/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/a6ba4b1a262567df138db35db2335fcd/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/a6ba4b1a262567df138db35db2335fcd/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/84c06b639a82ff828066b9e34ac24199/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/84c06b639a82ff828066b9e34ac24199/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/0894adcaa71bed5b11df35253e491156/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/0894adcaa71bed5b11df35253e491156/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/84c06b639a82ff828066b9e34ac24199/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.codepath.apps.restclienttemplate.TimelineActivity
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:16:9-63
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:16:19-51
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:17:9-36:20
+	android:label
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:19:13-45
+	android:theme
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:20:13-44
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:18:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:26:13-35:29
+action#android.intent.action.VIEW
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:30:27-75
+data
+ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:32:17-34:62
+	android:host
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:33:21-55
+	android:scheme
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml:34:21-59
+uses-sdk
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/712adf6388c8c73e68dd88f98c09a3f1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/712adf6388c8c73e68dd88f98c09a3f1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/85a33c440ab87ac7b31530e5d01ebb20/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/85a33c440ab87ac7b31530e5d01ebb20/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/a96b426297be627cad78ad09c5a109cf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/a96b426297be627cad78ad09c5a109cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/da5ea38d2bf6c09cfd2d89cf2410c69a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/da5ea38d2bf6c09cfd2d89cf2410c69a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/a6ba4b1a262567df138db35db2335fcd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/a6ba4b1a262567df138db35db2335fcd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/9f173acd181f007fd49701ce9a394ca8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/9f173acd181f007fd49701ce9a394ca8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/dd699df8aa565725046d421456379f38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/dd699df8aa565725046d421456379f38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/110d550cd99d73b77c57cefb02be0f06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/110d550cd99d73b77c57cefb02be0f06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/9afc344b59113bbaf5fab6babb167547/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/9afc344b59113bbaf5fab6babb167547/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/07a4ee11d79f8bcc1d7e62b325ebfc5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/07a4ee11d79f8bcc1d7e62b325ebfc5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b9789f431083125eeb9793f1cd0ca92a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b9789f431083125eeb9793f1cd0ca92a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/ca2be5fcff7eb12ebee1686576d679c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/ca2be5fcff7eb12ebee1686576d679c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4aa6ad4bbfdad11096b1e468dd1c3035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4aa6ad4bbfdad11096b1e468dd1c3035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/ce91d1c0d88154317f0a62a482a433da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/ce91d1c0d88154317f0a62a482a433da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/61286ba2abfb26d8d934bdf1e585937b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/61286ba2abfb26d8d934bdf1e585937b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/d63053ad5a1c12255288454459bdfd1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/d63053ad5a1c12255288454459bdfd1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/6353d661ed237c93409cd7eca131959c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/6353d661ed237c93409cd7eca131959c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/6c6fa743b48e33d43a1fc757096820cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/6c6fa743b48e33d43a1fc757096820cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/2a4c399c3ba45ea363688bf6ff74c58b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/2a4c399c3ba45ea363688bf6ff74c58b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/2c77090fe41fa9114d2234497d7f9150/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/2c77090fe41fa9114d2234497d7f9150/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1ed847667fa34b88e734c065c2eb7861/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1ed847667fa34b88e734c065c2eb7861/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/84c06b639a82ff828066b9e34ac24199/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/84c06b639a82ff828066b9e34ac24199/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/0894adcaa71bed5b11df35253e491156/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/0894adcaa71bed5b11df35253e491156/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1ae968caacb9c35fbf2db581ea29127b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1ae968caacb9c35fbf2db581ea29127b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/662b85408d8c8b0d150fc52549a11c45/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/662b85408d8c8b0d150fc52549a11c45/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b579da46ae8de5b8ce963e2553af55bf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b579da46ae8de5b8ce963e2553af55bf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/748d13dec882f0b110708e5731775711/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/748d13dec882f0b110708e5731775711/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/46edb9c10138b9ade1b8f6faab853dfd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/46edb9c10138b9ade1b8f6faab853dfd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/07509c6eea2f8a6e0bcc275809fef228/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/07509c6eea2f8a6e0bcc275809fef228/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/da240f16596b2eea768b8a3e7c3555eb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/da240f16596b2eea768b8a3e7c3555eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b531b391ba97629bdddc26f95eed64c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/b531b391ba97629bdddc26f95eed64c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1f40a5f5846aea3dcf687ba7e633a3fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/1f40a5f5846aea3dcf687ba7e633a3fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4fa0c203ce9461df1cc80251870bdb89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4fa0c203ce9461df1cc80251870bdb89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4c406523aa02fa089aab77a55c09e574/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/4c406523aa02fa089aab77a55c09e574/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/c041c029a80bb6afda8ea58255412cfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jadagrant/.gradle/caches/transforms-2/files-2.1/c041c029a80bb6afda8ea58255412cfc/AndroidManifest.xml:20:5-44
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/src/main/AndroidManifest.xml

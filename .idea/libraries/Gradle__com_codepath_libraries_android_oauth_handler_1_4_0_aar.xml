@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.codepath.libraries:android-oauth-handler:1.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/712adf6388c8c73e68dd88f98c09a3f1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/712adf6388c8c73e68dd88f98c09a3f1/jars/libs/codepath-utils.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/712adf6388c8c73e68dd88f98c09a3f1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
