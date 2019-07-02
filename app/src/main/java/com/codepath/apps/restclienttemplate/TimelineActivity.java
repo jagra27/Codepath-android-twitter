@@ -11,6 +11,7 @@ import com.codepath.apps.restclienttemplate.models.TweetAdapter;
 import com.loopj.android.http.JsonHttpResponseHandler;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
@@ -37,6 +38,8 @@ public class TimelineActivity extends AppCompatActivity {
         tweets = new ArrayList<>();
         // setup the recycler view now
         rvTweets.setLayoutManager(new LinearLayoutManager(this));
+        //init TweetAdapter
+        tweetAdapter = new TweetAdapter(tweets);
         // now set up the tweet adapter
         rvTweets.setAdapter(tweetAdapter);
         // nowwwww populate the view
@@ -55,14 +58,19 @@ public class TimelineActivity extends AppCompatActivity {
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 Log.d("TwitterClient", response.toString());
                 // iterate through the JSON array
-                // for each entry, deserialize the JSON object
-                // convert each object to a Tweet model
-                // add that Tweet model to our data source
-                // notify the adapter that we have added an item
 
                 for(int i = 0; i < response.length(); i++){
-                    Tweet tweet = Tweet.fromJSON(response.getJSONObject(i));
+                    // for each entry, deserialize the JSON object
+                    // convert each object to a Tweet model
+                    Tweet tweet = null;
+                    try {
+                        tweet = Tweet.fromJSON(response.getJSONObject(i));
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    // add that Tweet model to our data source
                     tweets.add(tweet);
+                    // notify the adapter that we have added an item
                     tweetAdapter.notifyItemInserted(tweets.size()-1);
 
                 }
