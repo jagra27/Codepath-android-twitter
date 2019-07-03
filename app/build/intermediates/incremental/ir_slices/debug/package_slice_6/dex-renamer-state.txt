@@ -1,4 +1,4 @@
-#Wed Jul 03 15:02:12 PDT 2019
+#Wed Jul 03 15:53:19 PDT 2019
 base.0=/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/transforms/dexMerger/debug/6
 path.0=classes.dex
 renamed.0=classes.dex

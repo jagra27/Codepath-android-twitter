@@ -2,6 +2,7 @@ package com.codepath.apps.restclienttemplate;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -29,6 +30,7 @@ public class TimelineActivity extends AppCompatActivity {
     RecyclerView rvTweets;
     ArrayList<Tweet> tweets;
     TweetAdapter tweetAdapter;
+    SwipeRefreshLayout swipeContainer;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -36,6 +38,7 @@ public class TimelineActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_timeline, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle presses on the action bar items
@@ -56,7 +59,7 @@ public class TimelineActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == COMPOSE_TWEET_REQUEST_CODE && resultCode == RESULT_OK){
+        if (requestCode == COMPOSE_TWEET_REQUEST_CODE && resultCode == RESULT_OK) {
             Tweet resultTweet = Parcels.unwrap(data.getParcelableExtra(ComposeActivity.RESULT_TWEET_KEY));
 
             tweets.add(0, resultTweet);
@@ -87,10 +90,46 @@ public class TimelineActivity extends AppCompatActivity {
         tweetAdapter = new TweetAdapter(tweets);
         // now set up the tweet adapter
         rvTweets.setAdapter(tweetAdapter);
+        // set refresh so it wont be null
+        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
         // nowwwww populate the view
         populateTimeline();
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+
+
+                fetchTimelineAsync(0);
+            }
+        });
+        // Configure the refreshing colors
+        swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
+
+
+
 
     }
+
+
+    public void fetchTimelineAsync(int page) {
+        // Send the network request to fetch the updated data
+        // `client` here is an instance of Android Async HTTP
+        // getHomeTimeline is an example endpoint.
+
+                // Remember to CLEAR OUT old items before appending in the new ones
+                tweetAdapter.clear();
+                // ...the data has come back, add new items to your adapter...
+                populateTimeline();
+
+                // Now we call setRefreshing(false) to signal refresh has finished
+                swipeContainer.setRefreshing(false);
+    }
+
+
+
 
     private void populateTimeline(){
         client.getHomeTimeline(new JsonHttpResponseHandler(){
@@ -143,5 +182,7 @@ public class TimelineActivity extends AppCompatActivity {
         }
         );
     }
+
+
 
 }
