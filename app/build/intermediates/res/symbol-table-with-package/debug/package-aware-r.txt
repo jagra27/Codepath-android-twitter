@@ -751,6 +751,7 @@ id list_item
 id mTextView
 id media_actions
 id message
+id miActionProgress
 id miCompose
 id middle
 id multiply
@@ -763,6 +764,7 @@ id notification_main_column_container
 id packed
 id parent
 id parentPanel
+id pbProgressAction
 id percent
 id progress_circular
 id progress_horizontal
@@ -859,6 +861,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout action_view_progress
 layout activity_compose
 layout activity_login
 layout activity_timeline

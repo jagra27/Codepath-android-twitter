@@ -93,7 +93,6 @@ public class TimelineActivity extends AppCompatActivity {
         // set refresh so it wont be null
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
         // nowwwww populate the view
-        populateTimeline();
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -132,6 +131,9 @@ public class TimelineActivity extends AppCompatActivity {
 
 
     private void populateTimeline(){
+
+        //before you start an asynchronous task, we want to show the progress bar
+        showProgressBar();
         client.getHomeTimeline(new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
@@ -149,16 +151,15 @@ public class TimelineActivity extends AppCompatActivity {
                     Tweet tweet = null;
                     try {
                         tweet = Tweet.fromJSON(response.getJSONObject(i));
+                        // add that Tweet model to our data source
+                        tweets.add(tweet);
+                        // notify the adapter that we have added an item
+                        tweetAdapter.notifyItemInserted(tweets.size()-1);
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
-                    // add that Tweet model to our data source
-                    tweets.add(tweet);
-                    // notify the adapter that we have added an item
-                    tweetAdapter.notifyItemInserted(tweets.size()-1);
-
-
                 }
+                hideProgressBar();
             }
 
 
@@ -166,23 +167,46 @@ public class TimelineActivity extends AppCompatActivity {
             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
                 Log.d("TwitterClient", responseString);
                 throwable.printStackTrace();
+                hideProgressBar();
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
                 Log.d("TwitterClient", errorResponse.toString());
                 throwable.printStackTrace();
+                hideProgressBar();
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONArray errorResponse) {
                 Log.d("TwitterClient", errorResponse.toString());
                 throwable.printStackTrace();
+                hideProgressBar();
             }
         }
         );
     }
+    // Instance of the progress action-view
+    MenuItem miActionProgressItem;
 
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        // Store instance of the menu item containing progress
+        miActionProgressItem = menu.findItem(R.id.miActionProgress);
+        populateTimeline();
 
+        // Return to finish
+        return super.onPrepareOptionsMenu(menu);
+
+    }
+    public void showProgressBar() {
+        // Show progress item
+        miActionProgressItem.setVisible(true);
+    }
+
+    public void hideProgressBar() {
+        // Hide progress item
+        miActionProgressItem.setVisible(false);
+    }
 
 }

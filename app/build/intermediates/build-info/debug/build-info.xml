@@ -2,38 +2,36 @@
 <instant-run
     abi="x86"
     api-level="28"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="440dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.4.1"
-    timestamp="1562197732501"
+    timestamp="1562361920602"
     token="-2153744962658600480"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1468" />
+        duration="1521" />
     <task
         name="instant-run-dex"
-        duration="11" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="15" />
+        duration="26" />
     <task
         name="verifier"
-        duration="1" />
+        duration="9" />
 
     <artifact
-        location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1562196938956"
+        timestamp="1562361667418"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
@@ -59,6 +57,9 @@
             location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
@@ -73,19 +74,12 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1562197690924"
-        verifier="METHOD_DELETED" >
+        ir-eligibility="COMPATIBLE"
+        timestamp="1562361920602"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1562197732501"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/jadagrant/AndroidStudioProjects/Twitter/Codepath-android-twitter/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
