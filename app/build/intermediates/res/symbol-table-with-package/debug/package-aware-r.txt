@@ -865,6 +865,7 @@ layout action_view_progress
 layout activity_compose
 layout activity_login
 layout activity_timeline
+layout activity_twitter_detail
 layout item_tweet
 layout notification_action
 layout notification_action_tombstone

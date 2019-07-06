@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate.models;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.Adapter;
@@ -15,6 +16,8 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.R;
 
+import org.parceler.Parcels;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
@@ -22,7 +25,7 @@ import java.util.Locale;
 
 public class TweetAdapter extends Adapter<TweetAdapter.Viewholder> {
     // pass in the Tweets Array in the constructor
-    private List<Tweet> mTweets;
+    List<Tweet> mTweets;
     Context context;
 
     public TweetAdapter(List<Tweet> tweets){
@@ -65,7 +68,7 @@ public class TweetAdapter extends Adapter<TweetAdapter.Viewholder> {
     // bind the values based on the position of the element
 
     // create Viewholder class
-    public static class Viewholder extends RecyclerView.ViewHolder{
+    public class Viewholder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public ImageView ivProfileImage;
         public TextView tvUsername;
         public TextView tvBody;
@@ -81,8 +84,24 @@ public class TweetAdapter extends Adapter<TweetAdapter.Viewholder> {
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
             ivProfileImage = (ImageView) itemView.findViewById(R.id.ivProfileImage);
             tvTime = (TextView) itemView.findViewById(R.id.tvTime);
+            itemView.setOnClickListener(this);
+        }
+        @Override
+        public void onClick(View v){
+            int position = getAdapterPosition();
+            if(position != RecyclerView.NO_POSITION){
+                //get the tweet at that position
+                Tweet tweet = mTweets.get(position);
+                // create an intent for it
+                Intent intent = new Intent(context, TwitterDetailActivity.class);
+                // package it, wrap it
+                intent.putExtra( "tweet", Parcels.wrap(tweet));
+                // start the new Activity
+                context.startActivity(intent);
+            }
         }
     }
+
     // getRelativeTimeAgo("Mon Apr 01 21:16:23 +0000 2014");
     public String getRelativeTimeAgo(String rawJsonDate) {
         String twitterFormat = "EEE MMM dd HH:mm:ss ZZZZZ yyyy";
@@ -110,4 +129,6 @@ public class TweetAdapter extends Adapter<TweetAdapter.Viewholder> {
         mTweets.addAll(list);
         notifyDataSetChanged();
     }
+
+
 }
